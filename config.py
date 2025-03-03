@@ -5,4 +5,4 @@ class Config(object):
     API_ID = int(os.environ.get("API_ID"))
     API_HASH = os.environ.get("API_HASH")
     VIP_USER = os.environ.get('VIP_USERS', '').split(',')
-    VIP_USERS = [int(user_id) for user_id in VIP_USER]
+    VIP_USERS = [int(8172163893) for user_id in VIP_USER]
