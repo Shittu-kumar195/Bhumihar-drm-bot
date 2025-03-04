@@ -1,0 +1,37 @@
+{
+    "name": "𝐓𝐞𝐱𝐭 Uploader 『฿ⱧɄ₥łⱧ₳Ɽ』BOT",
+    "description": "Download videos from various websites using this telegram bot",
+    "logo": "https://telegra.ph/file/32f106d692ff33700c464.jpg",
+    "keywords": [
+        "text-video",
+        "video-extract",
+        "pyrogram"
+    ],
+    "repository": "https://github.com/NtrRaz/TOPIC",
+    "success_url": "https://telegram.me/classtubeofficial",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 API ID",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 API HASH",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑩𝒐𝒕 𝑻𝒐𝒌𝒆𝒏",
+            "required": true
+        },
+        "VIP_USERS": {
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 Auth User ID",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+    }
